@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <p></p>
+        <img>
+        <div>
+            <button id="good" disabled>🔥</button>
+            <button id="bad" disabled>🤢</button>
+        </div>
+        <script src="classify.js"></script>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                min-height: 100vh;
+                gap: 1rem;
+            }
+
+            img {
+                height: 500px;
+                width: 500px;
+                border: 1px solid gray;
+            }
+
+            div {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 1rem;
+            }
+
+            button {
+                height: 14rem;
+                width: 20rem;
+                font-size: 4rem;
+            }
+
+            p {
+                font-size: 2rem;
+                padding: 2rem;
+            }
+        </style>
+    </body>
+</html>
